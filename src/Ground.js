@@ -6,10 +6,10 @@ import { LinearEncoding, RepeatWrapping, TextureLoader } from "three";
 const Ground = ({}) => {
 
     const [roughness, normal] = useLoader(TextureLoader, [
-        process.env.PUBLIC_URL + "textures/terrain-roughness.jpeg",
-        process.env.PUBLIC_URL + "textures/terrain-normal.jpeg"
+        process.env.PUBLIC_URL + "./textures/terrain-roughness.jpeg",
+        process.env.PUBLIC_URL + "./textures/terrain-normal.jpeg"
     ])
-console.log(process.env.PUBLIC_URL + "textures/terrain-normal.jpeg")
+console.log(process.env.PUBLIC_URL + "./textures/terrain-normal.jpeg")
     useEffect(() => {
         [normal, roughness].forEach((t) => {
             t.wrapS = RepeatWrapping;
