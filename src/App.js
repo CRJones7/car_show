@@ -91,16 +91,13 @@ function CarShow(){
 
 function App(){
   return(
-    <div className='container'>
-    {/* <div className="nav">
-      
-    </div> */}
+    <>
     <Suspense fallback={null}>
       <Canvas shadows>
         <CarShow/>
       </Canvas>
     </Suspense>
-    </div>
+    </>
   )
 }
 export default App;

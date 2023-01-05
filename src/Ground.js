@@ -9,7 +9,7 @@ const Ground = ({}) => {
         process.env.PUBLIC_URL + "textures/terrain-roughness.jpeg",
         process.env.PUBLIC_URL + "textures/terrain-normal.jpeg"
     ])
-
+console.log(process.env.PUBLIC_URL + "textures/terrain-normal.jpeg")
     useEffect(() => {
         [normal, roughness].forEach((t) => {
             t.wrapS = RepeatWrapping;
