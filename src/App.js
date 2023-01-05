@@ -13,7 +13,7 @@ import {
   ChromaticAberration,
 } from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing";
-
+import FallBack from "./FallBack"
 
 function CarShow(){
   return (
@@ -92,7 +92,7 @@ function CarShow(){
 function App(){
   return(
     <>
-    <Suspense fallback={null}>
+    <Suspense fallback={<FallBack/> }>
       <Canvas shadows>
         <CarShow/>
       </Canvas>

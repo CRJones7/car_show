@@ -68,6 +68,6 @@ export function Boxes() {
   });
 
   return <>
-    {arr.map((e, i) => <Box key={i} color={i % 2 === 0 ? [0.4, 0.1, 0.1] : [0.05, 0.15, 0.4] }/>)}
+    {arr.map((e, i) => <Box key={i} color={i % 2 === 0 ? [0.1, 3, 9] : [.68, .06, 0.4] }/>)}
   </>
 }
