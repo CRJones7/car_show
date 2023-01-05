@@ -16,7 +16,7 @@ html, body, #root, canvas{
     box-shadow: inset 0px 0px 5px rgb(54, 62, 80)
 }
 .fallbackContainer{
-    background-color: rgba(113, 17, 113, 0.693);
+    background-color: rgba(29, 29, 36, 0.997);
     height: 100%;
     display: flex;
     justify-content: center;
@@ -36,8 +36,8 @@ html, body, #root, canvas{
      -225deg,
      rgb(35, 21, 87) 0%,
      rgb(31, 65, 133) 29%,
-     rgb(36, 147, 161) 67%,
-     rgb(165, 8, 105) 100%
+     rgb(165, 8, 105) 67%,
+     rgb(36, 147, 161) 100%
    );
    background-size: auto auto;
    background-clip: border-box;
@@ -62,5 +62,6 @@ html, body, #root, canvas{
  @media only screen and (min-width: 600px ){
     .animate-charcter{
         font-size: 90px;
+        margin-top: 10%;
     }
  }
