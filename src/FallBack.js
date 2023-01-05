@@ -6,6 +6,17 @@ const FallBack = () => {
         <div className='fallbackContainer'>
             <div className="loadingCarShow">
                 <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
+                <h1 className="animate-charcter">Loading...</h1>
             </div>
         </div>
     )
